@@ -4,3 +4,40 @@
     padding: 0px;
     margin: 0px;
 }
+
+body {
+    background-color: black;
+}
+
+main {
+    background-color: #D8D9D7;
+}
+
+header {
+    
+}
+
+header > h1 {
+    color: white;
+}
+
+section#img01 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/homem-com-fundo-preto-segurando-celular-pq.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+nav {
+    
+}
+
+nav > a {
+    
+}
+
+article {
+
+}
