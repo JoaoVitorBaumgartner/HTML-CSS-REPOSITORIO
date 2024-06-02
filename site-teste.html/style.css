@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 * {
     padding: 0px;
@@ -19,6 +20,7 @@ header {
 
 header > section > h1 {
     color: white;
+    font-family: "Poetsen One", sans-serif;
 }
 
 section#img01 {
