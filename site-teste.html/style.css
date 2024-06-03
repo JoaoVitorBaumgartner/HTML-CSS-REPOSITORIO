@@ -1,4 +1,25 @@
 @charset "UTF-8";
+/* Amostras de tema de cores em hexadecimal */
+.New-Black-And-Orange-Color-1-hex { color: #000000; }
+.New-Black-And-Orange-Color-2-hex { color: #101010; }
+.New-Black-And-Orange-Color-3-hex { color: #BE2A00; }
+.New-Black-And-Orange-Color-4-hex { color: #EEEEEE; }
+.New-Black-And-Orange-Color-5-hex { color: #FF3100; }
+
+/* Color Theme Swatches in RGBA */
+.New-Black-And-Orange-Color-1-rgba { color: rgba(0, 0, 0, 1); }
+.New-Black-And-Orange-Color-2-rgba { color: rgba(15, 16, 15, 1); }
+.New-Black-And-Orange-Color-3-rgba { color: rgba(190, 42, 0, 1); }
+.New-Black-And-Orange-Color-4-rgba { color: rgba(237, 238, 237, 1); }
+.New-Black-And-Orange-Color-5-rgba { color: rgba(255, 48, 0, 1); }
+
+/* Amostras de temas de cores em HSLA */
+.New-Black-And-Orange-Color-1-hsla { color: hsla(0, 0, 0, 1); }
+.New-Black-And-Orange-Color-2-hsla { color: hsla(113, 0, 6, 1); }
+.New-Black-And-Orange-Color-3-hsla { color: hsla(13, 100, 37, 1); }
+.New-Black-And-Orange-Color-4-hsla { color: hsla(113, 0, 93, 1); }
+.New-Black-And-Orange-Color-5-hsla { color: hsla(11, 100, 50, 1); }
+
 
 * {
     padding: 0px;
@@ -6,36 +27,42 @@
 }
 
 body {
-    background-color: #242836;
+    background-color: #000000;
 }
 
-section {
-    height: 90px;
-    background-color: #2E438B;
-    padding: 10px;
+header {
+    background-color: #101010;
+    padding: 9px 10px 0px 10px;
 }
 
-section > h1 {
+header > h1 {
     color: white;
-    font-size: 2.9em;
+    font-size: 3em;
 }
 
 nav {
-    padding-top: 17px;
-    
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 nav > a {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+a:hover{
+    background-color: #eeeeeeae;
+    color: black;
+    border-radius: 4px;
 }
 
 main {
     background-color: rgb(246, 246, 246);
-    width: 1300px;
+    width: 1000px;
     margin: auto;
     padding: 10px;
 }
