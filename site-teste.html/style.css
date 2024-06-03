@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 * {
     padding: 0px;
@@ -7,39 +6,9 @@
 }
 
 body {
-    background-color: black;
+    background-color: #242836;
 }
 
 main {
-    background-color: #D8D9D7;
-}
-
-header {
-    
-}
-
-header > section > h1 {
-    color: white;
-    font-family: "Poetsen One", sans-serif;
-}
-
-section#img01 {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/homem-com-fundo-preto-segurando-celular-pq.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-}
-
-nav {
-    
-}
-
-nav > a {
-    
-}
-
-article {
-
+    background-color: rgb(246, 246, 246);
 }
