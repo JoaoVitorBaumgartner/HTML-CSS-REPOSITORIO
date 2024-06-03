@@ -9,6 +9,41 @@ body {
     background-color: #242836;
 }
 
+section {
+    height: 90px;
+    background-color: #2E438B;
+    padding: 10px;
+}
+
+section > h1 {
+    color: white;
+    font-size: 2.9em;
+}
+
+nav {
+    padding-top: 17px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 main {
     background-color: rgb(246, 246, 246);
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+}
+
+main > article > h1 {
+    color: #242836;
+}
+
+main > article > h2 {
+    color: #2B2C33;
 }
